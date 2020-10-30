@@ -1,0 +1,188 @@
+﻿@model int
+@{
+    ViewData["Title"] = "Video";
+}
+
+<section class="channel-description">
+    <figure class="figure-banner">
+        <img id="banner-image" src="~/img/v2.png" asp-append-version="true" />
+        <div>
+            <img id="display-image" src="~/img/v4.png" asp-append-version="true" />
+        </div>
+    </figure>
+
+    <div class="channel-navigation box-shadow">
+        <div class="container d-flex flex-row flex-fill justify-content-between align-items-center">
+            <h6 class="mr-md-4">CodingWithStephen</h6>
+            <nav class="d-flex flex-row justify-content-around grey flex-fill mr-md-4 position-relative">
+                <a class="mr-4 navigation-link p-3" href="#">Videos</a>
+                <a class="mr-4 navigation-link p-3" href="#">Playlists</a>
+                <a class="navigation-link p-3" href="#">About</a>
+            </nav>
+            <a class="btn btn-outline-primary" href="#">Subscribe <b>1.5M</b></a>
+        </div>
+
+    </div>
+
+    <div class="container mt-3 d-flex justify-content-between main-header">
+        <p>Videos</p>
+        <p>Sort by <i class="fas fa-arrow-circle-down"></i></p>
+    </div>
+
+    <div class="container mt-4 d-flex flex-row justify-content-between flex-wrap">
+        <div class="card box box-shadow">
+            <a asp-controller="Video" asp-action="Index" asp-route-Id="343">
+                <img class="card-img-top" src="~/img/286px180.png" alt="Card image cap">
+                <div class="card-body  bg-light m-0 p-0 pt-2 d-flex flex-row">
+                    <div>
+                        <img class="user-icon" alt="" src="~/img/s1.png">
+                    </div>
+                    <div class="p-1">
+                        <h5 class="card-title">There are many variations of passages of Lorem today and tomorrow</h5>
+                        <p class="card-text text-success">Education</p>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-between view-days p-2">
+                    <div>18M views</div>
+                    <div>2 days ago</div>
+                </div>
+            </a>
+        </div>
+        <div class="card box box-shadow">
+            <a asp-controller="Video" asp-action="Index" asp-route-Id="343">
+                <img class="card-img-top" src="~/img/286px180.png" alt="Card image cap">
+                <div class="card-body  bg-light m-0 p-0 pt-2 d-flex flex-row">
+                    <div>
+                        <img class="user-icon" alt="" src="~/img/s1.png">
+                    </div>
+                    <div class="p-1">
+                        <h5 class="card-title">There are many variations of passages of Lorem today and tomorrow</h5>
+                        <p class="card-text text-success">Education</p>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-between view-days p-2">
+                    <div>18M views</div>
+                    <div>2 days ago</div>
+                </div>
+            </a>
+        </div>
+        <div class="card box box-shadow">
+            <a asp-controller="Video" asp-action="Index" asp-route-Id="343">
+                <img class="card-img-top" src="~/img/286px180.png" alt="Card image cap">
+                <div class="card-body  bg-light m-0 p-0 pt-2 d-flex flex-row">
+                    <div>
+                        <img class="user-icon" alt="" src="~/img/s1.png">
+                    </div>
+                    <div class="p-1">
+                        <h5 class="card-title">There are many variations of passages of Lorem today and tomorrow</h5>
+                        <p class="card-text text-success">Education</p>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-between view-days p-2">
+                    <div>18M views</div>
+                    <div>2 days ago</div>
+                </div>
+            </a>
+        </div>
+        <div class="card box box-shadow">
+            <a asp-controller="Video" asp-action="Index" asp-route-Id="343">
+                <img class="card-img-top" src="~/img/286px180.png" alt="Card image cap">
+                <div class="card-body  bg-light m-0 p-0 pt-2 d-flex flex-row">
+                    <div>
+                        <img class="user-icon" alt="" src="~/img/s1.png">
+                    </div>
+                    <div class="p-1">
+                        <h5 class="card-title">There are many variations of passages of Lorem today and tomorrow</h5>
+                        <p class="card-text text-success">Education</p>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-between view-days p-2">
+                    <div>18M views</div>
+                    <div>2 days ago</div>
+                </div>
+            </a>
+        </div>
+        <div class="card box box-shadow">
+            <a asp-controller="Video" asp-action="Index" asp-route-Id="343">
+                <img class="card-img-top" src="~/img/286px180.png" alt="Card image cap">
+                <div class="card-body  bg-light m-0 p-0 pt-2 d-flex flex-row">
+                    <div>
+                        <img class="user-icon" alt="" src="~/img/s1.png">
+                    </div>
+                    <div class="p-1">
+                        <h5 class="card-title">There are many variations of passages of Lorem today and tomorrow</h5>
+                        <p class="card-text text-success">Education</p>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-between view-days p-2">
+                    <div>18M views</div>
+                    <div>2 days ago</div>
+                </div>
+            </a>
+        </div>
+        <div class="card box box-shadow">
+            <a asp-controller="Video" asp-action="Index" asp-route-Id="343">
+                <img class="card-img-top" src="~/img/286px180.png" alt="Card image cap">
+                <div class="card-body  bg-light m-0 p-0 pt-2 d-flex flex-row">
+                    <div>
+                        <img class="user-icon" alt="" src="~/img/s1.png">
+                    </div>
+                    <div class="p-1">
+                        <h5 class="card-title">There are many variations of passages of Lorem today and tomorrow</h5>
+                        <p class="card-text text-success">Education</p>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-between view-days p-2">
+                    <div>18M views</div>
+                    <div>2 days ago</div>
+                </div>
+            </a>
+        </div>
+        <div class="card box box-shadow">
+            <a asp-controller="Video" asp-action="Index" asp-route-Id="343">
+                <img class="card-img-top" src="~/img/286px180.png" alt="Card image cap">
+                <div class="card-body  bg-light m-0 p-0 pt-2 d-flex flex-row">
+                    <div>
+                        <img class="user-icon" alt="" src="~/img/s1.png">
+                    </div>
+                    <div class="p-1">
+                        <h5 class="card-title">There are many variations of passages of Lorem today and tomorrow</h5>
+                        <p class="card-text text-success">Education</p>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-between view-days p-2">
+                    <div>18M views</div>
+                    <div>2 days ago</div>
+                </div>
+            </a>
+        </div>
+        <div class="card box box-shadow">
+            <a asp-controller="Video" asp-action="Index" asp-route-Id="343">
+                <img class="card-img-top" src="~/img/286px180.png" alt="Card image cap">
+                <div class="card-body  bg-light m-0 p-0 pt-2 d-flex flex-row">
+                    <div>
+                        <img class="user-icon" alt="" src="~/img/s1.png">
+                    </div>
+                    <div class="p-1">
+                        <h5 class="card-title">There are many variations of passages of Lorem today and tomorrow</h5>
+                        <p class="card-text text-success">Education</p>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-between view-days p-2">
+                    <div>18M views</div>
+                    <div>2 days ago</div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="container my-4">
+        <nav class="d-flex flex-row justify-content-center align-items-center">
+            <a class="mr-3 grey" href="#">Previous</a>
+            <a class="mr-3 btn btn-outline-primary" href="#">1</a>
+            <a class="mr-3" href="#">2</a>
+            <a class="mr-3" href="#">3</a>
+            <a class="mr-3" href="#">Next</a>
+        </nav>
+    </div>
+</section>
