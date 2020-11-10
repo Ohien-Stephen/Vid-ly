@@ -9,7 +9,7 @@ namespace Vid_ly.Data.Models
     public class Channel 
     {
         [Key]
-        public int ChannelId { get; set; }
+        public int Id { get; set; }
         public string Name { get; set; }
         public string logo { get; set; }
         public string DisplayImage { get; set; }

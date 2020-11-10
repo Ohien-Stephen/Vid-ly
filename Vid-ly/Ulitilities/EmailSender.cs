@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Vid_ly.Ulitilities
 {
-    //public class EmailSender : IEmailSender
-    //{
-    //    public Task SendEmailAsync(string email, string subject, string htmlMessage)
-    //    {
-           
-    //    }
-    //}
+    public class EmailSender : IEmailSender
+    {
+        public Task SendEmailAsync(string email, string subject, string htmlMessage)
+        {
+            return null;
+        }
+    }
 }

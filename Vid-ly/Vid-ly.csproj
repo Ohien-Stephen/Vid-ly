@@ -45,4 +45,11 @@
     </Content>
   </ItemGroup>
 
+
+  <ItemGroup>
+    <Folder Include="Services\Like\" />
+    <Folder Include="Services\Subscribe\" />
+    <Folder Include="Services\PlayList\" />
+  </ItemGroup>
+
 </Project>
